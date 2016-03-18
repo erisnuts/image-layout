@@ -40,7 +40,7 @@ module.exports = function(elements, options) {
 	}
 
 	// calculate rows needed
-	var rowsNeeded = Math.round(summedWidth / containerWidth)
+	var rowsNeeded = Math.round(summedWidth / containerWidth * 0.75)
 
 	// adjust photo sizes
 	if (rowsNeeded < 1) {
